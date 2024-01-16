@@ -18,9 +18,10 @@ In this section, we generate independent normal variables, x and y, which lead t
 
 Now, let's display their histogram with a bin count of 100 (the number of bars plotted). The results are as follows:
 
-         ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/89a1b191-d93c-4e47-a1e1-b7c927857652)
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/89a1b191-d93c-4e47-a1e1-b7c927857652)
  
-         Figure 1.2(histogram of two normal distribution (N=1000))
+Figure 1.2(histogram of two normal distribution (N=1000))
+
 The mean of the random variable x: [Mean of x]
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/c4cf52e6-22f0-4038-8147-6bd3f9810826)
