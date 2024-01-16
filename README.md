@@ -10,9 +10,9 @@ As stated in the project description, if two independent normal random variables
 
 Now, let's proceed to calculate its probability density function (pdf) and depict it as follows:
 
-          ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/85fd9361-3a06-4e44-a3f6-5bdbeb9724f0)
+ ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/85fd9361-3a06-4e44-a3f6-5bdbeb9724f0)
 
-          Figure 1.1(PDF & CDF of Rayleigh distribution)
+ Figure 1.1(PDF & CDF of Rayleigh distribution)
 
 In this section, we generate independent normal variables, x and y, which lead to the creation of our Rayleigh variable. Using the "randn" command, we create these variables with a length of 103. This command generates variables with a mean close to zero and a variance close to one for us.
 
