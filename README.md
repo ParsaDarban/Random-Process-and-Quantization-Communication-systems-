@@ -12,14 +12,15 @@ Now, let's proceed to calculate its probability density function (pdf) and depic
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/85fd9361-3a06-4e44-a3f6-5bdbeb9724f0)
 
-Figure 1.1(PDF & CDF of Rayleigh distribution)
+          Figure 1.1(PDF & CDF of Rayleigh distribution)
 
 In this section, we generate independent normal variables, x and y, which lead to the creation of our Rayleigh variable. Using the "randn" command, we create these variables with a length of 103. This command generates variables with a mean close to zero and a variance close to one for us.
 
 Now, let's display their histogram with a bin count of 100 (the number of bars plotted). The results are as follows:
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/89a1b191-d93c-4e47-a1e1-b7c927857652)
-
+ 
+         Figure 1.2(histogram of two normal distribution (N=1000))
 The mean of the random variable x: [Mean of x]
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/c4cf52e6-22f0-4038-8147-6bd3f9810826)
