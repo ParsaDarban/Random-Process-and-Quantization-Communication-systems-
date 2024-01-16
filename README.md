@@ -6,5 +6,10 @@ The concluding section introduces us to a digital communication system utilizing
 PART1
 As stated in the project description, if two independent normal random variables, x and y, with zero means and unit variances, are given, the Rayleigh distribution is obtained from the following relationship.
 
-
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/78d3c4c8-5343-4803-b062-8b2b95984b33)
+
+Now, let's proceed to calculate its probability density function (pdf) and depict it as follows:
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/85fd9361-3a06-4e44-a3f6-5bdbeb9724f0)
+Figure 1.1(PDF & CDF of Rayleigh distribution)
+
