@@ -1,6 +1,6 @@
 # Random-Process-and-Quantization-Communication-systems
-<Part1 style="color: #ff0000;">
 
+**PART1**
 
 This exercise is dedicated to examining received signals in the presence of noise. We begin by introducing the Rayleigh distribution, which is a random variable. Understanding this distribution is crucial as the noises added to the signals are random.
 In the following section, we analyze random processes and explore the necessary conditions for our process to be Wide Sense Stationary (WSS).
@@ -59,3 +59,35 @@ Figure 1.4(histogram of two normal distribution(N=100000))
 Figure 1.5(histogram of Rayleigh distribution(N=100000))
 
 As can be observed, with the increase in N, the mean and variance of the normal variable have become closer to zero and one, respectively. As a result, the Rayleigh distribution constructed from two normal variables has also approached the expected values. The resulting shape is also closer to their PDF.
+
+**PART2**
+
+In this section, we are examining a random process. 
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/ddf8a317-93d1-485b-bd49-8fabbfcaee35)
+
+First, we calculate the mean of this process, which is observed to be zero, indicating that its mean is not dependent on time. 
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/f6fd9952-1ab0-44bf-beb8-2a370a574842)
+
+Now, we proceed to calculate its autocorrelation function.
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/b8655464-aec0-43c7-895f-f9be7954cfb7)
+
+As we can see, the autocorrelation function is time-dependent and relies on the time lag. Therefore, we can conclude that this process is of the WSS (wide-sense stationary) type.
+
+In this section, we want to plot the average of the process. First, we create the process itself. We define the interval of theta using the command unifrnd. Given the provided fs and our time range, we need random thetas of length 10^5 at 100 different times. Then, for each time, we take the average of their thetas and plot it. The result is as follows:
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/e871e6ca-58d3-4248-b05b-3ae388586b4c)
+
+Figure 2.1(theta’s mean)
+
+Here we use two for loops and the autocorrelation relationship of a process to plot the three-dimensional autocorrelation graph.
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/c2b292c1-0607-41df-8b27-78bdbb5cb14b)
+
+Figure 2.2(3D auto correlation)
+
+As can be seen, at a τ (tau), time does not change. Also, by taking the average of this function (in the following sections) and the averaged tau (in the previous section), we realize that it is not only dependent on time but also dependent on the autocorrelation function itself to the difference of two times. 
+*From the average graph in the previous section, it can be seen that it is close to zero.
+
