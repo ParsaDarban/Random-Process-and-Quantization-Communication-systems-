@@ -1,5 +1,7 @@
 # Random-Process-and-Quantization-Communication-systems
 
+PART1
+
 This exercise is dedicated to examining received signals in the presence of noise. We begin by introducing the Rayleigh distribution, which is a random variable. Understanding this distribution is crucial as the noises added to the signals are random.
 In the following section, we analyze random processes and explore the necessary conditions for our process to be Wide Sense Stationary (WSS).
 The concluding section introduces us to a digital communication system utilizing MPAM modulation, where we investigate its performance in the presence of noise.
@@ -31,3 +33,8 @@ The mean of the random variable y: [Mean of y]
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/792536e0-0c54-44e6-a7b7-753d7fc71db4)
 
 As observed, the mean and variance align with the specifications mentioned in the question.
+
+Here, using the available relationships, we generate z. First, we deal with its mean and variance. As can be seen, these numbers are consistent with the results obtained in part A. (Our assumed variance is almost equal to one.)
+
+
+
