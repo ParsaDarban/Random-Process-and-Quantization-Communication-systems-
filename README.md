@@ -48,4 +48,14 @@ In this section, we set the length of the normal variables to be 10^5. As we can
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/d81b73a0-6c88-41df-a317-b27e6fcd09f4) ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/558c31b7-926b-465e-ab5f-843a64df063c) ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/7f590d7e-8c59-4e42-8b7e-2f4030f94847)
 
+As we can see, since our numbers were calculated with high precision, the histogram of them is more similar to the PDF plot.
 
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/ff421b4d-7ba3-44f2-9c55-12f2a65e1ff4)
+
+Figure 1.4(histogram of two normal distribution(N=100000))
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/fc20ebf6-69aa-4740-a95c-cf39069bf9d4)
+
+Figure 1.5(histogram of Rayleigh distribution(N=100000))
+
+As can be observed, with the increase in N, the mean and variance of the normal variable have become closer to zero and one, respectively. As a result, the Rayleigh distribution constructed from two normal variables has also approached the expected values. The resulting shape is also closer to their PDF.
