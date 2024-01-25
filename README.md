@@ -1,6 +1,6 @@
 # Random-Process-and-Quantization-Communication-systems
-<span style="font-family: Times New Roman (Headings CS), sans-serif;">
-</PART1>
+<Part1 style="color: #ff0000;">
+
 
 This exercise is dedicated to examining received signals in the presence of noise. We begin by introducing the Rayleigh distribution, which is a random variable. Understanding this distribution is crucial as the noises added to the signals are random.
 In the following section, we analyze random processes and explore the necessary conditions for our process to be Wide Sense Stationary (WSS).
