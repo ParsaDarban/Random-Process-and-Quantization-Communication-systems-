@@ -36,5 +36,10 @@ As observed, the mean and variance align with the specifications mentioned in th
 
 Here, using the available relationships, we generate z. First, we deal with its mean and variance. As can be seen, these numbers are consistent with the results obtained in part A. (Our assumed variance is almost equal to one.)
 
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/600e5938-9a39-4688-a924-50886d74f8eb)
 
+The histogram plot is as follows. As we can see, its shape approximately resembles the PDF in the first section. However, if we increase its length, the shape will exactly resemble what we implement in the next section.
 
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/7e381c34-eed5-4d5a-9b0d-700a4cec6a92)
+
+Figure 1.3(histogram of Rayleigh distribution(N=1000))
