@@ -1,5 +1,5 @@
 # Random-Process-and-Quantization-Communication-systems
-<span style="font-family: Arial, sans-serif;">Your text here</span>
+<span style="font-family: Times New Roman (Headings CS), sans-serif;">Your text here</span>
 PART1
 
 This exercise is dedicated to examining received signals in the presence of noise. We begin by introducing the Rayleigh distribution, which is a random variable. Understanding this distribution is crucial as the noises added to the signals are random.
