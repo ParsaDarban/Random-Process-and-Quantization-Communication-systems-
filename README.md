@@ -14,7 +14,7 @@ Now, let's proceed to calculate its probability density function (pdf) and depic
 
  ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/85fd9361-3a06-4e44-a3f6-5bdbeb9724f0)
 
- Figure 1.1(PDF & CDF of Rayleigh distribution)
+*Figure 1.1(PDF & CDF of Rayleigh distribution)*
 
 In this section, we generate independent normal variables, x and y, which lead to the creation of our Rayleigh variable. Using the "randn" command, we create these variables with a length of 103. This command generates variables with a mean close to zero and a variance close to one for us.
 
@@ -22,7 +22,7 @@ Now, let's display their histogram with a bin count of 100 (the number of bars p
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/89a1b191-d93c-4e47-a1e1-b7c927857652)
  
-Figure 1.2(histogram of two normal distribution (N=1000))
+*Figure 1.2(histogram of two normal distribution (N=1000))*
 
 The mean of the random variable x: [Mean of x]
 
@@ -42,7 +42,7 @@ The histogram plot is as follows. As we can see, its shape approximately resembl
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/7e381c34-eed5-4d5a-9b0d-700a4cec6a92)
 
-Figure 1.3(histogram of Rayleigh distribution(N=1000))
+*Figure 1.3(histogram of Rayleigh distribution(N=1000))*
 
 In this section, we set the length of the normal variables to be 10^5. As we can see, the mean and variance of all three variables have become closer to the expected values.
 
@@ -52,11 +52,11 @@ As we can see, since our numbers were calculated with high precision, the histog
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/ff421b4d-7ba3-44f2-9c55-12f2a65e1ff4)
 
-Figure 1.4(histogram of two normal distribution(N=100000))
+*Figure 1.4(histogram of two normal distribution(N=100000))*
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/fc20ebf6-69aa-4740-a95c-cf39069bf9d4)
 
-Figure 1.5(histogram of Rayleigh distribution(N=100000))
+*Figure 1.5(histogram of Rayleigh distribution(N=100000))*
 
 As can be observed, with the increase in N, the mean and variance of the normal variable have become closer to zero and one, respectively. As a result, the Rayleigh distribution constructed from two normal variables has also approached the expected values. The resulting shape is also closer to their PDF.
 
@@ -80,14 +80,29 @@ In this section, we want to plot the average of the process. First, we create th
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/e871e6ca-58d3-4248-b05b-3ae388586b4c)
 
-Figure 2.1(theta’s mean)
+*Figure 2.1(theta’s mean)*
 
 Here we use two for loops and the autocorrelation relationship of a process to plot the three-dimensional autocorrelation graph.
 
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/c2b292c1-0607-41df-8b27-78bdbb5cb14b)
 
-Figure 2.2(3D auto correlation)
+*Figure 2.2(3D auto correlation)*
 
 As can be seen, at a τ (tau), time does not change. Also, by taking the average of this function (in the following sections) and the averaged tau (in the previous section), we realize that it is not only dependent on time but also dependent on the autocorrelation function itself to the difference of two times. 
 *From the average graph in the previous section, it can be seen that it is close to zero.
+
+We plot the results obtained in the first part. The results are as follows:
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/ef69072e-8cc9-4e3f-b990-10fbf8c3d06c)
+
+*Figure 2.3(Plot mean & autocorrelation (result of hand calculation))*
+
+It can be observed that the average function of this section and the second section are similar, with the difference that the first section is closer to zero. Also, considering that the time does not change for each tau, by averaging it, we arrive at the second form.
+
+To halt our process, we take the average of its autocorrelation function over time.
+The result is as follows, which is consistent with manual calculations.
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/f58008fc-d137-4940-a0c1-493905b4091c)
+
+*Figure 2.3(comparing hand calculation stationary & made stationary)*
+
+Furthermore, the error percentage also prove above argument. ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/eceb38fa-207c-479a-b3ad-a589504fad45)
 
