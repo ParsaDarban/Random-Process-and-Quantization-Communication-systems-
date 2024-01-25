@@ -43,3 +43,9 @@ The histogram plot is as follows. As we can see, its shape approximately resembl
 ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/7e381c34-eed5-4d5a-9b0d-700a4cec6a92)
 
 Figure 1.3(histogram of Rayleigh distribution(N=1000))
+
+In this section, we set the length of the normal variables to be 10^5. As we can see, the mean and variance of all three variables have become closer to the expected values.
+
+![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/d81b73a0-6c88-41df-a317-b27e6fcd09f4) ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/558c31b7-926b-465e-ab5f-843a64df063c) ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/7f590d7e-8c59-4e42-8b7e-2f4030f94847)
+
+
