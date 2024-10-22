@@ -106,3 +106,4 @@ The result is as follows, which is consistent with manual calculations.
 
 Furthermore, the error percentage also prove above argument. ![image](https://github.com/ParsaDarban/Random-Process-and-Quantization-Communication-systems-/assets/155367890/eceb38fa-207c-479a-b3ad-a589504fad45)
 
+repo:ParsaDarban/Vital-Signals-LAB language:MATLAB
